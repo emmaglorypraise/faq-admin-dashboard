@@ -306,6 +306,7 @@ body {
     }
     .accordion .card .card-header button {
         font-size: 14px;
+        
     }
 
     .tab-nav-icon {
@@ -314,8 +315,8 @@ body {
     
     .tab-nav-icon img {
         display: flex;
-        /* flex-direction: row; */
+        flex-direction: column;
         padding: 0 5px;
-        margin: 5px;
+        margin-top: 10px;
     }
 }

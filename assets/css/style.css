@@ -297,5 +297,14 @@ body {
     .tabcontent {
         width: 100%;
         height: auto;
+        padding: 0 10px;
+    }
+
+    .accordion .card .card-header {
+        padding: 4px 5px;
+        font-size: 14px;
+    }
+    .accordion .card .card-header button {
+        font-size: 14px;
     }
 }

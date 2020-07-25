@@ -36,6 +36,10 @@ body {
 }
 
 /* MAIN PAGE NAV KDDHFHFHDJDDNDJDJDJDJJDJDJDJDJDJDJDJJD */
+.faq-heading {
+    padding: 0.5rem;
+}
+
 .faq-heading h1{
     font-style: normal;
     font-weight: 500;
@@ -95,7 +99,9 @@ body {
   border: 1px solid #F6FCFF;
   width: 65%;
   border-left: none;
-  height: 525px;
+  /* height: 525px; */
+  margin-top:1rem; 
+  margin-bottom: 1rem;
 }
 
 .tabcontent .tabcontent-3 {
@@ -279,5 +285,17 @@ body {
     #main-page {
         left: 0;
         width: 100%;
+    }
+}
+
+@media(max-width: 649px) {
+    .tab {
+        width: 100%;
+        height: auto;
+    }
+
+    .tabcontent {
+        width: 100%;
+        height: auto;
     }
 }

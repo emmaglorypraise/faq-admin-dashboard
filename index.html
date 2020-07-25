@@ -54,7 +54,7 @@
 															<h5 class="modal-title text-center" id="exampleModalLongTitle">Add Topic</h5>
 															<form>
 																<div class="form-group">
-																	<input class="form-control" id="text" placeholder="Topic Name">
+																	<input class="form-control" id="text" placeholder="Topic Name" required>
 																</div>
 																<div class="d-flex">
 																<button type="submit" class="btn add-topic-button mx-auto">Add Topic</button>
@@ -95,11 +95,11 @@
 																			<div class="form-row">
 																				<div class="form-group col-md-6">
 																					<label for="text">Question</label>
-																					<input type="text" class="form-control" id="text" placeholder="Write the question here">
+																					<input type="text" class="form-control" id="text" placeholder="Write the question here" required>
 																				</div>
 																				<div class="form-group col-md-6">
 																					<label for="text">Topic</label>
-																					<select class="form-control" type="text" id="text">
+																					<select class="form-control" type="text" id="text" required>
 																						<option>Select the topic</option>
 																						<option>2</option>
 																						<option>3</option>
@@ -110,7 +110,7 @@
 																			</div>
 																			<div class="form-group">
 																				<label for="text">Answer</label>
-																				<textarea class="form-control" id="textarea" rows="3" placeholder="Write the answer here"></textarea>
+																				<textarea class="form-control" id="textarea" rows="3" placeholder="Write the answer here" required></textarea>
 																			</div>
 																			<div class="d-flex">
 																			<button type="submit" class="btn btn-primary mx-auto">Add Question</button>
@@ -242,6 +242,7 @@
 						<button type="button" class="close" data-dismiss="alert">&times;</button>
 						<strong>FAQ added successfully!</strong> 
 					</div> -->
+					 
 					 <!-- SUCCESS DELETED FAQ ALERT -->
 					 <!-- <div class="alert alert-danger alert-dismissible">
 						<button type="button" class="close" data-dismiss="alert">&times;</button>
